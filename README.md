@@ -1,3 +1,6 @@
+본 레포지토리를 다운로드 받은 후 일부 이용 또는 전체 이용 하실 경우  /Server/lib/Web/lang/ko_KR.json의 3번 열, en_US.json의 5번 열을 수정해주세요. (본 끄투는 바나나끄투 소스코드를 참고 또는 이용하여 제작된 게임입니다.)
+
+본 소스는 게임에 대한 코드만 있습니다. (PR 제외)
 # KKuTu
 - Made by [JJoriping](http://blog.jjo.kr/)
 - Special thanks to
@@ -20,9 +23,9 @@
 ### 설치 방법
 #### Windows 환경
 1. 이 레포지토리를 내려받습니다.
-1. [node.js](https://nodejs.org/ko/) 인스톨러를 내려받아 설치(버전 8 이상)합니다. [npm](https://www.npmjs.com/)과 함께 설치되어야 합니다.
+1. [node.js](https://nodejs.org/ko/) 인스톨러를 내려받아 설치(버전 17)합니다. [npm](https://www.npmjs.com/)과 함께 설치되어야 합니다.
 1. 명령 프롬프트에서 `npm install -g grunt grunt-cli`를 입력해 [grunt](https://gruntjs.com/)를 설치합니다.
-1. [PostgreSQL](https://www.postgresql.org/) 인스톨러를 내려받아 *pgAdmin*(자동으로 설치됨)과 함께 설치합니다.
+1. [PostgreSQL](https://www.postgresql.org/) 인스톨러를 내려받아 (버전 14) *pgAdmin*(자동으로 설치됨)과 함께 설치합니다.
 1. *pgAdmin*을 실행시키고 SQL 파일(`./db.sql`)을 데이터베이스에 입력시킵니다.
 	* 자세한 과정은 [개발자 블로그][dev-blog]를 참고하세요.
 1. 배치 파일(`./server-setup.bat`)을 실행시킵니다.
